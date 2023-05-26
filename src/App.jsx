@@ -75,7 +75,7 @@ const App = () => {
       setGifList([...gifList, inputValue]);
       setInputValue("");
     } else {
-      console.log("Input vazio. Tente novamente.");
+      console.log("Input vazio. Tente novamente mais tarde.");
     }
   };
 
